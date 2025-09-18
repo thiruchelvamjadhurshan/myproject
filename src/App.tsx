@@ -355,7 +355,7 @@ const App = () => {
               <div className="lg:col-span-1">
                 <div className="glass-card p-2 max-w-sm mx-auto">
                   <img 
-                    src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                    src="https://scontent.fcmb8-1.fna.fbcdn.net/v/t39.30808-6/523203891_122164954994571273_5001422770099445549_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=MMnU3XyeZMQQ7kNvwEC7j7a&_nc_oc=AdmHqbTFe-6KELILn9iyrwDKD0WJrdw7MFNeH-D2PTRBTC2udonc0mssSuYaSkFOmGO1oOIEtF59txNW18xjy8RJ&_nc_zt=23&_nc_ht=scontent.fcmb8-1.fna&_nc_gid=-V1IEJm4RV9yQqQNK95D8g&oh=00_AfYZDEQesWqzRoZBUGumiABCi3ro_Xi2MJNoUkU3Kdnebg&oe=68D1CCAF"
                     alt="mas.Thiruchelvam Jadhurshan"
                     className="w-full h-80 object-cover rounded-xl"
                   />
