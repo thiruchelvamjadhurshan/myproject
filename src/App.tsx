@@ -196,7 +196,26 @@ const App = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {galleryImages.map((image, index) => (
+            {/* Facebook Video */}
+            <div className="glass-card p-2 group hover:scale-105 transition-all duration-300">
+              <div 
+                className="relative w-full h-64 bg-gradient-to-br from-emerald-900 to-green-800 rounded-xl cursor-pointer overflow-hidden"
+                onClick={() => window.open('https://www.facebook.com/share/v/1CzKLd1kt1/', '_blank')}
+              >
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 group-hover:bg-white/30 transition-all duration-300">
+                    <Play className="w-12 h-12 text-white" />
+                  </div>
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
+                  <p className="text-white font-semibold text-sm">Watch Our Latest Work</p>
+                  <p className="text-white/80 text-xs">Click to view on Facebook</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Gallery Images */}
+            {galleryImages.slice(0, 5).map((image, index) => (
               <div key={index} className="glass-card p-2 group hover:scale-105 transition-all duration-300">
                 <img 
                   src={image}
