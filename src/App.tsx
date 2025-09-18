@@ -173,12 +173,33 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="glass-card p-2">
-              <img 
-                src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="ஆதிரை Graphics Studio"
-                className="w-full h-96 object-cover rounded-xl"
-              />
+            <div className="space-y-6">
+              {/* Facebook Video */}
+              <div className="glass-card p-2">
+                <div 
+                  className="relative w-full h-64 bg-gradient-to-br from-emerald-900 to-green-800 rounded-xl cursor-pointer overflow-hidden group"
+                  onClick={() => window.open('https://www.facebook.com/share/v/1CzKLd1kt1/', '_blank')}
+                >
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-white/20 backdrop-blur-sm rounded-full p-6 group-hover:bg-white/30 transition-all duration-300 group-hover:scale-110">
+                      <Play className="w-16 h-16 text-white" />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                    <p className="text-white font-bold text-lg">Watch Our Story</p>
+                    <p className="text-white/90 text-sm">See our creative journey in action</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Studio Image */}
+              <div className="glass-card p-2">
+                <img 
+                  src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  alt="ஆதிரை Graphics Studio"
+                  className="w-full h-64 object-cover rounded-xl"
+                />
+              </div>
             </div>
           </div>
         </div>
